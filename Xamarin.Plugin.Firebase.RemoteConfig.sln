@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions\Xamarin.Plugin.Firebase.RemoteConfig.Abstractions.csproj", "{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Plugin.Firebase.RemoteConfig", "Xamarin.Plugin.Firebase.RemoteConfig\Xamarin.Plugin.Firebase.RemoteConfig.csproj", "{1AE89802-5A98-469E-97B7-27275F85A845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Plugin.Firebase.RemoteConfig.iOS", "Xamarin.Plugin.Firebase.RemoteConfig.iOS\Xamarin.Plugin.Firebase.RemoteConfig.iOS.csproj", "{40B1BC49-8BBB-410E-861E-4110A9C54829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Plugin.Firebase.RemoteConfig.Android", "Xamarin.Plugin.Firebase.RemoteConfig.Android\Xamarin.Plugin.Firebase.RemoteConfig.Android.csproj", "{549FD25A-F9EA-4806-AD0B-A39B5998DD15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{930A58F9-D9CB-4F2B-8F37-BFD20E41436D}"
+	ProjectSection(SolutionItems) = preProject
+		build.gradle = build.gradle
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A57C85-1CB7-4D83-95D3-0D3A84677ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE89802-5A98-469E-97B7-27275F85A845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE89802-5A98-469E-97B7-27275F85A845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE89802-5A98-469E-97B7-27275F85A845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE89802-5A98-469E-97B7-27275F85A845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B1BC49-8BBB-410E-861E-4110A9C54829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B1BC49-8BBB-410E-861E-4110A9C54829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B1BC49-8BBB-410E-861E-4110A9C54829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B1BC49-8BBB-410E-861E-4110A9C54829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549FD25A-F9EA-4806-AD0B-A39B5998DD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549FD25A-F9EA-4806-AD0B-A39B5998DD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549FD25A-F9EA-4806-AD0B-A39B5998DD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549FD25A-F9EA-4806-AD0B-A39B5998DD15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

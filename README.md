@@ -8,7 +8,7 @@ This plugin is compatible with iOS and Android.
 
 ### Setup
 - Setup your Firebase project on https://console.firebase.google.com
-- NuGet package available
+- NuGet package available: https://www.nuget.org/packages/Xam.Plugin.FirebaseRemoteConfig
 - Install the nuget package into your PCL/Forms project and client projects.
 
 ### API Usage
@@ -90,7 +90,6 @@ Firebase.FirebaseApp.InitializeApp(this);
 CrossFirebaseRemoteConfig.Current.Init("my_config_defaults");
 ```
 - you can add a default config file as xml resource (under Resources/xml). 
-
 
 ## License
 Licensed under MIT, see license file.

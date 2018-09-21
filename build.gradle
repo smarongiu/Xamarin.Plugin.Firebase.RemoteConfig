@@ -1,0 +1,75 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'org.ajoberstar.grgit' version '1.6.0'
+    id 'com.betomorrow.xamarin.library' version '1.2.0'
+    id 'com.betomorrow.xamarin.nunit' version '1.2.0'
+}
+
+version = "1.0.${grgit.log().size()}"
+
+nunit {
+    format = "nunit2"
+}
+
+nuspec {
+
+    title = "Xam.Plugin.FirebaseRemoteConfig"
+    authors = "Stefano Marongiu"
+    owners = "BeTomorrow, smarongiu@betomorrow.com"
+    description = "Cross-platform library for using Firebase RemoteConfig in Xamarin Forms applications."    
+    copyright = "Copyright 2018"
+
+    packages {
+        "default" {
+            packageId = "Xam.Plugin.FirebaseRemoteConfig"
+
+            dependencies {
+                "MonoTouch10" {
+                    dependency "Xamarin.Firebase.iOS.Core:[5.0.5,)"
+                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[3.0.0,)"
+                }
+                "Xamarin.iOS10" {
+                    dependency "Xamarin.Firebase.iOS.Core:[5.0.5,)"
+                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[3.0.0,)"
+                }
+                "MonoAndroid10" {
+                    dependency "Plugin.CurrentActivity:[2.1.0,)"
+                    dependency "Xamarin.Firebase.Config:[2.1.4,)"
+                }
+            }
+
+            assemblies {
+                target {
+                    dest "lib/netstandard2.0"
+                    includes "Xamarin.Plugin.Firebase.RemoteConfig", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
+                }
+
+                target {
+                    dest "lib/MonoTouch10/"
+                    includes "Xamarin.Plugin.Firebase.RemoteConfig.iOS", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
+                }
+
+                target {
+                    dest "lib/Xamarin.iOS10/"
+                    includes "Xamarin.Plugin.Firebase.RemoteConfig.iOS", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
+                }
+
+                target {
+                    dest "lib/MonoAndroid10/"
+                    includes "Xamarin.Plugin.Firebase.RemoteConfig.Android", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
+                }
+            }
+        }
+    }
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4.1'
+}
