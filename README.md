@@ -1,5 +1,6 @@
 # Xamarin.Plugin.Firebase.RemoteConfig
 Cross-platform library for using Firebase RemoteConfig in Xamarin Forms applications.
+The plugin provides a simple facade to official Xamarin bindings for Firebase native libs.
 
 ## Platform support
 This plugin is compatible with iOS and Android.
@@ -83,9 +84,9 @@ CrossFirebaseRemoteConfig.Current.Init("my_config_defaults");
 ### Android
 - From the Firebase Console, add your Android app to your project. 
 - Download and add the generated google-services.json file to your app in the root folder and mark it as "GoogleServicesJson".
-- Add the nuget package https://github.com/jamesmontemagno/CurrentActivityPlugin and add these lines to MainActivity.cs, after <code>base.OnCreate(bundle)</code>:
+- Add the nuget package https://www.nuget.org/packages/Plugin.CurrentActivity and follow installation guide.
+- Add these lines to MainActivity.cs, after <code>base.OnCreate(bundle)</code>:
 ```csharp
-CrossCurrentActivity.Current.Init(Application);
 Firebase.FirebaseApp.InitializeApp(this);
 CrossFirebaseRemoteConfig.Current.Init("my_config_defaults");
 ```
