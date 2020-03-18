@@ -24,6 +24,7 @@ nuspec {
     owners = "BeTomorrow, smarongiu@betomorrow.com"
     description = "Cross-platform library for using Firebase RemoteConfig in Xamarin Forms applications."    
     copyright = "Copyright 2018"
+    licenseUrl = "https://licenses.nuget.org/MIT"
 
     packages {
         "default" {
