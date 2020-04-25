@@ -1,7 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Firebase.RemoteConfig;
+using Newtonsoft.Json;
 using Xamarin.Plugin.Firebase.RemoteConfig.Exceptions;
 
 namespace Xamarin.Plugin.FirebaseRemoteConfig {
@@ -46,6 +48,26 @@ namespace Xamarin.Plugin.FirebaseRemoteConfig {
 
         public ICollection<string> GetKeysByPrefix(string prefix) {
             return _config.GetKeys(prefix).ToArray().Select(x => x.ToString()).ToList();
+        }
+
+        public T GetObject<T>(string key) where T : class
+        {
+            try
+            {
+                var data = _config[key].StringValue;
+                return JsonConvert.DeserializeObject<T>(data, new JsonSerializerSettings
+                {
+                    NullValueHandling = NullValueHandling.Ignore,
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                    PreserveReferencesHandling = PreserveReferencesHandling.Objects,
+                    Formatting = Formatting.Indented
+                });
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+                return null;
+            }
         }
 
         #endregion

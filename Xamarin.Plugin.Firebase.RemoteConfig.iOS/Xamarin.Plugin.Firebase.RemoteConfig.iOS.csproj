@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
@@ -25,7 +25,8 @@
     <MtouchFastDev>true</MtouchFastDev>
     <IOSDebuggerPort>22555</IOSDebuggerPort>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
-    <MtouchVerbosity></MtouchVerbosity>
+    <MtouchVerbosity>
+    </MtouchVerbosity>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -33,16 +34,21 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchVerbosity></MtouchVerbosity>
+    <MtouchVerbosity>
+    </MtouchVerbosity>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

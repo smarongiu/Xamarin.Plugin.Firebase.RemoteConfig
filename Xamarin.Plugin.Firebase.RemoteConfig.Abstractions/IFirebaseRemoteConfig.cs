@@ -58,6 +58,14 @@ namespace Xamarin.Plugin.FirebaseRemoteConfig {
         /// Gets all keys by prefix.
         /// </summary>
         ICollection<string> GetKeysByPrefix(string prefix);
+
+        /// <summary>
+        /// Get json and parse to specific class
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        T GetObject<T>(string key) where T : class;
     }
 
 }
