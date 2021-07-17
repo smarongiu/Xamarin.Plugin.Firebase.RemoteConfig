@@ -64,7 +64,6 @@ namespace Xamarin.Plugin.FirebaseRemoteConfig
             }
         }
 
-
         public bool GetBool(string key) => _config[key].BoolValue;
 
         public double GetDouble(string key) => _config[key].NumberValue.DoubleValue;
