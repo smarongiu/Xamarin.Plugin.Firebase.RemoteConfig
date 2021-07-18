@@ -110,49 +110,61 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			public static int fontProviderQuery = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public static int fontStyle = 2130903052;
+			public static int fontProviderSystemFontFamily = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public static int fontVariationSettings = 2130903053;
+			public static int fontStyle = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public static int fontWeight = 2130903054;
+			public static int fontVariationSettings = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public static int imageAspectRatio = 2130903055;
+			public static int fontWeight = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public static int imageAspectRatioAdjust = 2130903056;
+			public static int imageAspectRatio = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public static int keylines = 2130903057;
+			public static int imageAspectRatioAdjust = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public static int layout_anchor = 2130903058;
+			public static int keylines = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public static int layout_anchorGravity = 2130903059;
+			public static int layout_anchor = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public static int layout_behavior = 2130903060;
+			public static int layout_anchorGravity = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public static int layout_dodgeInsetEdges = 2130903061;
+			public static int layout_behavior = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public static int layout_insetEdge = 2130903062;
+			public static int layout_dodgeInsetEdges = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public static int layout_keyline = 2130903063;
+			public static int layout_insetEdge = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public static int scopeUris = 2130903064;
+			public static int layout_keyline = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public static int statusBarBackground = 2130903065;
+			public static int nestedScrollViewStyle = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public static int ttcIndex = 2130903066;
+			public static int queryPatterns = 2130903066;
+			
+			// aapt resource value: 0x7F03001B
+			public static int scopeUris = 2130903067;
+			
+			// aapt resource value: 0x7F03001C
+			public static int shortcutMatchRequired = 2130903068;
+			
+			// aapt resource value: 0x7F03001D
+			public static int statusBarBackground = 2130903069;
+			
+			// aapt resource value: 0x7F03001E
+			public static int ttcIndex = 2130903070;
 			
 			static Attribute()
 			{
@@ -708,46 +720,61 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			public static int tag_accessibility_pane_title = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public static int tag_screen_reader_focusable = 2131165272;
+			public static int tag_on_apply_window_listener = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public static int tag_transition_group = 2131165273;
+			public static int tag_on_receive_content_listener = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public static int tag_unhandled_key_event_manager = 2131165274;
+			public static int tag_on_receive_content_mime_types = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public static int tag_unhandled_key_listeners = 2131165275;
+			public static int tag_screen_reader_focusable = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public static int text = 2131165276;
+			public static int tag_state_description = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public static int text2 = 2131165277;
+			public static int tag_transition_group = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public static int time = 2131165278;
+			public static int tag_unhandled_key_event_manager = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public static int title = 2131165279;
+			public static int tag_unhandled_key_listeners = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public static int top = 2131165280;
+			public static int tag_window_insets_animation_callback = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public static int view_tree_lifecycle_owner = 2131165281;
+			public static int text = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public static int view_tree_saved_state_registry_owner = 2131165282;
+			public static int text2 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public static int view_tree_view_model_store_owner = 2131165283;
+			public static int time = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public static int visible_removing_fragment_view_tag = 2131165284;
+			public static int title = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public static int wide = 2131165285;
+			public static int top = 2131165285;
+			
+			// aapt resource value: 0x7F070066
+			public static int view_tree_lifecycle_owner = 2131165286;
+			
+			// aapt resource value: 0x7F070067
+			public static int view_tree_saved_state_registry_owner = 2131165287;
+			
+			// aapt resource value: 0x7F070068
+			public static int view_tree_view_model_store_owner = 2131165288;
+			
+			// aapt resource value: 0x7F070069
+			public static int visible_removing_fragment_view_tag = 2131165289;
+			
+			// aapt resource value: 0x7F07006A
+			public static int wide = 2131165290;
 			
 			static Id()
 			{
@@ -970,6 +997,17 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 		public partial class Styleable
 		{
 			
+			// aapt resource value: { 0x7F03001A,0x7F03001C }
+			public static int[] Capability = new int[] {
+					2130903066,
+					2130903068};
+			
+			// aapt resource value: 0
+			public static int Capability_queryPatterns = 0;
+			
+			// aapt resource value: 1
+			public static int Capability_shortcutMatchRequired = 1;
+			
 			// aapt resource value: { 0x10101A5,0x101031F,0x7F030000 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
@@ -985,23 +1023,23 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			// aapt resource value: 0
 			public static int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x7F030011,0x7F030019 }
+			// aapt resource value: { 0x7F030012,0x7F03001D }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903057,
-					2130903065};
+					2130903058,
+					2130903069};
 			
 			// aapt resource value: 0
 			public static int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017 }
+			// aapt resource value: { 0x10100B3,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903058,
 					2130903059,
 					2130903060,
 					2130903061,
 					2130903062,
-					2130903063};
+					2130903063,
+					2130903064};
 			
 			// aapt resource value: 0
 			public static int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -1027,16 +1065,17 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			// aapt resource value: 1
 			public static int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B }
+			// aapt resource value: { 0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C }
 			public static int[] FontFamily = new int[] {
 					2130903046,
 					2130903047,
 					2130903048,
 					2130903049,
 					2130903050,
-					2130903051};
+					2130903051,
+					2130903052};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030005,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03001A }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030005,0x7F03000D,0x7F03000E,0x7F03000F,0x7F03001E }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -1044,10 +1083,10 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 					16844143,
 					16844144,
 					2130903045,
-					2130903052,
 					2130903053,
 					2130903054,
-					2130903066};
+					2130903055,
+					2130903070};
 			
 			// aapt resource value: 0
 			public static int FontFamilyFont_android_font = 0;
@@ -1096,6 +1135,9 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			
 			// aapt resource value: 5
 			public static int FontFamily_fontProviderQuery = 5;
+			
+			// aapt resource value: 6
+			public static int FontFamily_fontProviderSystemFontFamily = 6;
 			
 			// aapt resource value: { 0x1010003,0x10100D0,0x10100D1 }
 			public static int[] Fragment = new int[] {
@@ -1185,11 +1227,11 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			// aapt resource value: 2
 			public static int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030002,0x7F03000F,0x7F030010 }
+			// aapt resource value: { 0x7F030002,0x7F030010,0x7F030011 }
 			public static int[] LoadingImageView = new int[] {
 					2130903042,
-					2130903055,
-					2130903056};
+					2130903056,
+					2130903057};
 			
 			// aapt resource value: 0
 			public static int LoadingImageView_circleCrop = 0;
@@ -1200,11 +1242,11 @@ namespace Xamarin.Plugin.Firebase.RemoteConfig.Android
 			// aapt resource value: 2
 			public static int LoadingImageView_imageAspectRatioAdjust = 2;
 			
-			// aapt resource value: { 0x7F030001,0x7F030003,0x7F030018 }
+			// aapt resource value: { 0x7F030001,0x7F030003,0x7F03001B }
 			public static int[] SignInButton = new int[] {
 					2130903041,
 					2130903043,
-					2130903064};
+					2130903067};
 			
 			// aapt resource value: 0
 			public static int SignInButton_buttonSize = 0;
