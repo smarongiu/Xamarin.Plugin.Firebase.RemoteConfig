@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Plugin.FirebaseRemoteConfig;
-using Xamarin.Plugin.FirebaseRemoteConfig.Abstractions;
 
 namespace FirebaseRemoteConfigSample {
     public partial class MainPage : ContentPage {

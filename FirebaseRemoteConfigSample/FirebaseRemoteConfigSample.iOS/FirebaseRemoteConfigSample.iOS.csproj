@@ -164,6 +164,8 @@
     <ProjectReference Include="..\..\Xamarin.Plugin.Firebase.RemoteConfig.iOS\Xamarin.Plugin.Firebase.RemoteConfig.iOS.csproj">
       <Project>{40B1BC49-8BBB-410E-861E-4110A9C54829}</Project>
       <Name>Xamarin.Plugin.Firebase.RemoteConfig.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
     <ProjectReference Include="..\..\Xamarin.Plugin.Firebase.RemoteConfig.Abstractions\Xamarin.Plugin.Firebase.RemoteConfig.Abstractions.csproj">
       <Project>{73C73890-BA39-42F2-83CC-E3B45227C1BA}</Project>

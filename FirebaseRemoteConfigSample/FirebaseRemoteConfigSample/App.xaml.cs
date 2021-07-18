@@ -13,7 +13,7 @@ namespace FirebaseRemoteConfigSample {
         }
 
         protected override void OnStart() {
-            CrossFirebaseRemoteConfig.Current.Init("remote_config_defaults", true); //switch this to false for production builds
+            CrossFirebaseRemoteConfig.Current.Init("remote_config_defaults"); //switch this to false for production builds
         }
 
         protected override void OnSleep() {
