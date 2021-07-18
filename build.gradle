@@ -6,9 +6,9 @@ buildscript {
 }
 
 plugins {
-    id 'org.ajoberstar.grgit' version '1.6.0'
-    id 'com.betomorrow.xamarin.library' version '1.2.0'
-    id 'com.betomorrow.xamarin.nunit' version '1.2.0'
+    id 'org.ajoberstar.grgit' version '4.1.0'
+    id 'com.betomorrow.xamarin.library' version '1.9.0'
+    id 'com.betomorrow.xamarin.nunit' version '1.9.0'
 }
 
 version = "1.0.${grgit.log().size()}"
@@ -20,10 +20,10 @@ nunit {
 nuspec {
 
     title = "Xam.Plugin.FirebaseRemoteConfig"
-    authors = "Stefano Marongiu"
-    owners = "BeTomorrow, smarongiu@betomorrow.com"
+    authors = "Trung Kenny Dinh"
+    owners = "Trung Kenny Dinh, xamarindevelopervietnam@outlook.com"
     description = "Cross-platform library for using Firebase RemoteConfig in Xamarin Forms applications."    
-    copyright = "Copyright 2018"
+    copyright = "Copyright 2021"
     licenseUrl = "https://licenses.nuget.org/MIT"
 
     packages {
@@ -32,22 +32,27 @@ nuspec {
 
             dependencies {
                 "MonoTouch10" {
-                    dependency "Xamarin.Firebase.iOS.Core:[5.0.5,)"
-                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[3.0.0,)"
+                    dependency "Xamarin.Firebase.iOS.Core:[6.10.4,)"
+                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[4.9.1,)"
                 }
                 "Xamarin.iOS10" {
-                    dependency "Xamarin.Firebase.iOS.Core:[5.0.5,)"
-                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[3.0.0,)"
+                    dependency "Xamarin.Firebase.iOS.Core:[6.10.4,)"
+                    dependency "Xamarin.Firebase.iOS.RemoteConfig:[4.9.1,)"
                 }
                 "MonoAndroid10" {
-                    dependency "Plugin.CurrentActivity:[2.1.0,)"
-                    dependency "Xamarin.Firebase.Config:[2.1.4,)"
+                    dependency "Plugin.CurrentActivity:[2.1.0.4,)"
+                    dependency "Xamarin.Firebase.Config:[121.0.0,)"
                 }
             }
 
             assemblies {
                 target {
                     dest "lib/netstandard2.0"
+                    includes "Xamarin.Plugin.Firebase.RemoteConfig", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
+                }
+
+                target {
+                    dest "lib/netstandard2.1"
                     includes "Xamarin.Plugin.Firebase.RemoteConfig", "Xamarin.Plugin.Firebase.RemoteConfig.Abstractions"
                 }
 
@@ -72,5 +77,5 @@ nuspec {
 
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.4.1'
+    gradleVersion = '6.9'
 }

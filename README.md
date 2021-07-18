@@ -19,14 +19,12 @@ Call **CrossFirebaseRemoteConfig.Current** from PCL or client code to use APIs.
 /// Initializes the service.
 /// </summary>
 /// <param name="defaultConfigResourceName">If set, load defaults from this resource</param>
-/// <param name="developerModeEnabled">If set to <c>true</c> developer mode is enabled.</param>
-void Init(string defaultConfigResourceName = null, bool developerModeEnabled = false);
+void Init(string defaultConfigResourceName = null);
 
 /// <summary>
 /// Initializes the service without default config.
 /// </summary>
-/// <param name="developerModeEnabled">If set to <c>true</c> developer mode is enabled.</param>
-void Init(bool developerModeEnabled = false);
+void Init();
 
 /// <summary>
 /// Fetchs the remote config.
@@ -38,17 +36,18 @@ Task FetchAsync(long cacheExpiration);
 /// <summary>
 /// Activates the last fetched config.
 /// </summary>
-void ActivateFetched();
+Task ActivateFetched();
+
+/// <summary>
+/// Fetch and active last fetched config
+/// </summary>
+/// <returns></returns>
+Task FetchAndActiveAsync();
 
 /// <summary>
 /// Gets the value with specified key as string.
 /// </summary>
 string GetString(string key);
-
-/// <summary>
-/// Gets the value with specified key as byte array.
-/// </summary>
-byte[] GetBytes(string key);
 
 /// <summary>
 /// Gets the value with specified key as boolean.
