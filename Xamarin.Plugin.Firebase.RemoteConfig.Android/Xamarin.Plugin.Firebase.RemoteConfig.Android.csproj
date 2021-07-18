@@ -142,22 +142,25 @@
       <HintPath>..\packages\Plugin.CurrentActivity.2.1.0.4\lib\monoandroid44\Plugin.CurrentActivity.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Activity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.Activity.1.2.2\lib\monoandroid90\Xamarin.AndroidX.Activity.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Activity.1.2.3\lib\monoandroid90\Xamarin.AndroidX.Activity.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Annotation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Annotation.1.2.0\lib\monoandroid90\Xamarin.AndroidX.Annotation.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Annotation.Experimental, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.Annotation.Experimental.1.0.0.9\lib\monoandroid90\Xamarin.AndroidX.Annotation.Experimental.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Annotation.Experimental.1.1.0\lib\monoandroid90\Xamarin.AndroidX.Annotation.Experimental.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Arch.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Arch.Core.Common.2.1.0.8\lib\monoandroid90\Xamarin.AndroidX.Arch.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.AndroidX.Arch.Core.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8\lib\monoandroid90\Xamarin.AndroidX.Arch.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Collection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Collection.1.1.0.7\lib\monoandroid90\Xamarin.AndroidX.Collection.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.Core.1.3.2.3\lib\monoandroid90\Xamarin.AndroidX.Core.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Core.1.6.0\lib\monoandroid90\Xamarin.AndroidX.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.CustomView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.CustomView.1.1.0.6\lib\monoandroid90\Xamarin.AndroidX.CustomView.dll</HintPath>
@@ -166,7 +169,7 @@
       <HintPath>..\packages\Xamarin.AndroidX.DocumentFile.1.0.1.7\lib\monoandroid90\Xamarin.AndroidX.DocumentFile.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Fragment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.Fragment.1.3.2\lib\monoandroid90\Xamarin.AndroidX.Fragment.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Fragment.1.3.5\lib\monoandroid90\Xamarin.AndroidX.Fragment.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Legacy.Support.Core.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Legacy.Support.Core.Utils.1.0.0.7\lib\monoandroid90\Xamarin.AndroidX.Legacy.Support.Core.Utils.dll</HintPath>
@@ -178,7 +181,7 @@
       <HintPath>..\packages\Xamarin.AndroidX.Lifecycle.LiveData.Core.2.3.1\lib\monoandroid90\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Lifecycle.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1\lib\monoandroid90\Xamarin.AndroidX.Lifecycle.Runtime.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1\lib\monoandroid90\Xamarin.AndroidX.Lifecycle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Lifecycle.ViewModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Lifecycle.ViewModel.2.3.1\lib\monoandroid90\Xamarin.AndroidX.Lifecycle.ViewModel.dll</HintPath>
@@ -193,7 +196,7 @@
       <HintPath>..\packages\Xamarin.AndroidX.LocalBroadcastManager.1.0.0.7\lib\monoandroid90\Xamarin.AndroidX.LocalBroadcastManager.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.MultiDex, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.AndroidX.MultiDex.2.0.1.5\lib\monoandroid90\Xamarin.AndroidX.MultiDex.dll</HintPath>
+      <HintPath>..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.MultiDex.2.0.1.7\lib\monoandroid90\Xamarin.AndroidX.MultiDex.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.AndroidX.Print, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Print.1.0.0.7\lib\monoandroid90\Xamarin.AndroidX.Print.dll</HintPath>
@@ -392,6 +395,13 @@
     <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Api.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Measurement.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Api.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.Firebase.Analytics.119.0.0\build\MonoAndroid90\Xamarin.Firebase.Analytics.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Firebase.Analytics.119.0.0\build\MonoAndroid90\Xamarin.Firebase.Analytics.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Phenotype.117.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Phenotype.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Phenotype.117.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Phenotype.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Annotation.Experimental.1.1.0\build\monoandroid9.0\Xamarin.AndroidX.Annotation.Experimental.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Annotation.Experimental.1.1.0\build\monoandroid9.0\Xamarin.AndroidX.Annotation.Experimental.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.MultiDex.2.0.1.7\build\monoandroid9.0\Xamarin.AndroidX.MultiDex.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.MultiDex.2.0.1.7\build\monoandroid9.0\Xamarin.AndroidX.MultiDex.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8\build\monoandroid9.0\Xamarin.AndroidX.Arch.Core.Runtime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8\build\monoandroid9.0\Xamarin.AndroidX.Arch.Core.Runtime.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1\build\monoandroid9.0\Xamarin.AndroidX.Lifecycle.Runtime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1\build\monoandroid9.0\Xamarin.AndroidX.Lifecycle.Runtime.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Core.1.6.0\build\monoandroid9.0\Xamarin.AndroidX.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Core.1.6.0\build\monoandroid9.0\Xamarin.AndroidX.Core.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Activity.1.2.3\build\monoandroid9.0\Xamarin.AndroidX.Activity.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Activity.1.2.3\build\monoandroid9.0\Xamarin.AndroidX.Activity.targets'))" />
+    <Error Condition="!Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Fragment.1.3.5\build\monoandroid9.0\Xamarin.AndroidX.Fragment.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Fragment.1.3.5\build\monoandroid9.0\Xamarin.AndroidX.Fragment.targets'))" />
   </Target>
   <Import Project="..\packages\Xamarin.AndroidX.MultiDex.2.0.1.5\build\monoandroid90\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('..\packages\Xamarin.AndroidX.MultiDex.2.0.1.5\build\monoandroid90\Xamarin.AndroidX.MultiDex.targets')" />
   <Import Project="..\packages\Xamarin.AndroidX.Migration.1.0.8\build\monoandroid90\Xamarin.AndroidX.Migration.targets" Condition="Exists('..\packages\Xamarin.AndroidX.Migration.1.0.8\build\monoandroid90\Xamarin.AndroidX.Migration.targets')" />
@@ -440,4 +450,11 @@
   <Import Project="..\packages\Xamarin.GooglePlayServices.Measurement.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Api.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Api.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.Analytics.119.0.0\build\MonoAndroid90\Xamarin.Firebase.Analytics.targets" Condition="Exists('..\packages\Xamarin.Firebase.Analytics.119.0.0\build\MonoAndroid90\Xamarin.Firebase.Analytics.targets')" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Phenotype.117.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Phenotype.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Phenotype.117.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Phenotype.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Annotation.Experimental.1.1.0\build\monoandroid9.0\Xamarin.AndroidX.Annotation.Experimental.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Annotation.Experimental.1.1.0\build\monoandroid9.0\Xamarin.AndroidX.Annotation.Experimental.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.MultiDex.2.0.1.7\build\monoandroid9.0\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.MultiDex.2.0.1.7\build\monoandroid9.0\Xamarin.AndroidX.MultiDex.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8\build\monoandroid9.0\Xamarin.AndroidX.Arch.Core.Runtime.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8\build\monoandroid9.0\Xamarin.AndroidX.Arch.Core.Runtime.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1\build\monoandroid9.0\Xamarin.AndroidX.Lifecycle.Runtime.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1\build\monoandroid9.0\Xamarin.AndroidX.Lifecycle.Runtime.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Core.1.6.0\build\monoandroid9.0\Xamarin.AndroidX.Core.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Core.1.6.0\build\monoandroid9.0\Xamarin.AndroidX.Core.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Activity.1.2.3\build\monoandroid9.0\Xamarin.AndroidX.Activity.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Activity.1.2.3\build\monoandroid9.0\Xamarin.AndroidX.Activity.targets')" />
+  <Import Project="..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Fragment.1.3.5\build\monoandroid9.0\Xamarin.AndroidX.Fragment.targets" Condition="Exists('..\FirebaseRemoteConfigSample\packages\Xamarin.AndroidX.Fragment.1.3.5\build\monoandroid9.0\Xamarin.AndroidX.Fragment.targets')" />
 </Project>
